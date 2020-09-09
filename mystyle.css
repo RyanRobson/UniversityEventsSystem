@@ -1,0 +1,127 @@
+
+#header{
+	width: 100%;	
+	position:center;
+	line-height: 1.9em;
+}
+/* aranges the horizontal menu accross the top of the page*/
+
+#navigation{
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	text-decoration: none;
+	font-style: bold;
+	background-color: #231f20;
+	color: white;
+	border-radius: 10px;
+	border-top-left-radius: 0px;
+	border-top-right-radius: 0px;
+	float: right;
+	padding:0.5em;	
+	margin-right: 3%;
+	display:inline-block;
+	font-size: 14px;
+	font-weight: bold;
+	width:60%;
+}
+#navigation ul{
+	list-style-type:none;
+	margin:0;
+	padding:0;
+}
+#navigation li{
+	
+	display:block;
+	float:right;
+	text-align:center;
+	padding-left: 3.5%;
+	
+}
+#navigation li:hover{
+	
+	display:block;
+	float:right;
+	text-align:center;
+	padding-left: 3.5%;
+	text-decoration:underline;
+}
+#navigation a{
+	text-decoration: none;
+	color: white;
+}
+/* The main content of the webpage is styled in this class, where the fonts used.*/
+#main_content{
+	
+	font-size: 14px;
+	line-height: 20px;	 
+	padding-left:1em;
+	padding-right:1em;	
+	
+	}
+
+#text{
+	float: right;
+}
+
+/* the footer class holds properties for anything displayed underneath the main content of the page,
+ */
+#footer{
+	background-color: #231f20;
+	min-height: 230px;
+	font-size: 12px;
+	font-weight: bold;
+	color: white;
+	padding-left: 27px;
+	padding-right: 27px;
+	margin-top:2em;
+
+	}
+	.social{
+		float:right;
+	}
+	.logoFooter{
+		float:right;
+	}
+/*wrapper arround whole site containing content*/
+ #wrapper{	 
+ 	 font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+ 	 width:70%;
+	 margin-left:auto;
+	 margin-right:auto;
+	 margin-top:1%;
+	 padding:0;
+	 border-style:solid;
+	 border-width: 1px;
+	 box-shadow: 2px 3px 5px #555555;
+  }
+body {
+	background-color:#FFFFFF;
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	}
+
+label{
+	width:35%;
+	float: left;
+	clear:left;
+	margin-bottom:0.5em;
+	}
+
+input[type="text"], input [type = "radio"] input[type = "checkbox"]{
+	margin-bottom: 0.5em;
+	width: = 30%;
+	clear:left;
+	}   
+		
+legend{
+	font-weight:bold;
+	}
+h1{
+	font-size:22px;
+	font-weight:normal;
+}
+p{
+	line-height:1;
+}
+ul{
+	line-height:1;
+}
+
